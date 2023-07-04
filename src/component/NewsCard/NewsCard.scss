@@ -1,0 +1,38 @@
+.container{
+    padding: 1rem;
+    // margin-top: 100;
+}
+.card{
+    max-width: 365px;
+    height: 460px;
+    background-color: rgb(216, 212, 212);
+    padding: 0.5rem;
+    border-radius: 5px;
+    .photo{
+        .image{
+            width: 350px;
+            height: 230px;
+            border-radius: 5px;
+            &:hover{
+                cursor: pointer;
+                scale: 1.02;
+            }
+        }
+    }
+    .content{
+        text-align: left;
+    }
+    .footer{
+        .author, .timestamp{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        display: flex;
+        justify-content: space-between;
+        .foot-box2{
+            margin-top: 30px;
+            font-size: 1.5rem;
+        }
+    }
+    
+}

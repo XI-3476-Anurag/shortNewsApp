@@ -1,0 +1,10 @@
+.newsCard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card-container{
+    margin: 0 5% 0 5%;
+    background-color: rgb(233, 233, 233);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
